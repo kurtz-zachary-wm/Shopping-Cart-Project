@@ -23,7 +23,7 @@ else if($action=='exists'){
 }
 
 // query the products
-$query = "SELECT id, name, price FROM products ORDER BY name";
+$query = "SELECT    id, nam e, price FROM products ORDER BY name";
 $stmt = $con->prepare( $query );
 $stmt->execute();
 
